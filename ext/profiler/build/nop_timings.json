@@ -1,0 +1,106 @@
+{
+    "initialization_cost": {
+        "inner": {
+            "timing": {
+                "call_count": "1",
+                "cycles": {
+                    "sum": "38",
+                    "min": "38",
+                    "max": "38",
+                    "mean": "38",
+                    "excl": "38"
+                },
+                "call_count_children": "0"
+            }
+        },
+        "timing": {
+            "call_count": "1",
+            "cycles": {
+                "sum": "17489",
+                "min": "17489",
+                "max": "17489",
+                "mean": "17489",
+                "excl": "17451"
+            },
+            "call_count_children": "1"
+        }
+    },
+    "timing_cost": {
+        "inner": {
+            "timing": {
+                "call_count": "1000",
+                "cycles": {
+                    "sum": "37733",
+                    "min": "33",
+                    "max": "45",
+                    "mean": "37.732999999999997",
+                    "excl": "37733"
+                },
+                "call_count_children": "0"
+            }
+        },
+        "timing": {
+            "call_count": "1000",
+            "cycles": {
+                "sum": "718111",
+                "min": "682",
+                "max": "3498",
+                "mean": "718.11099999999999",
+                "excl": "680378"
+            },
+            "call_count_children": "1000"
+        }
+    },
+    "nop": {
+        "timing": {
+            "call_count": "10000",
+            "cycles": {
+                "sum": "1662162",
+                "min": "144",
+                "max": "48986",
+                "mean": "166.21619999999999",
+                "excl": "1662162"
+            },
+            "call_count_children": "0"
+        }
+    },
+    "timing_overhead": {
+        "timing": {
+            "call_count": "10000",
+            "cycles": {
+                "sum": "379788",
+                "min": "33",
+                "max": "446",
+                "mean": "37.9788",
+                "excl": "379788"
+            },
+            "call_count_children": "0"
+        }
+    },
+    "mul": {
+        "timing": {
+            "call_count": "10000",
+            "cycles": {
+                "sum": "3453770",
+                "min": "304",
+                "max": "48430",
+                "mean": "345.37700000000001",
+                "excl": "3453770"
+            },
+            "call_count_children": "0"
+        }
+    },
+    "sleep": {
+        "timing": {
+            "call_count": "1",
+            "cycles": {
+                "sum": "9960136164",
+                "min": "9960136164",
+                "max": "9960136164",
+                "mean": "9960136164",
+                "excl": "9960136164"
+            },
+            "call_count_children": "0"
+        }
+    }
+}

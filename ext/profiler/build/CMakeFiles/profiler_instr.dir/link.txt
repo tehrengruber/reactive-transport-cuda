@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprofiler_instr.a  CMakeFiles/profiler_instr.dir/profiler.cpp.o
+/usr/bin/ranlib libprofiler_instr.a

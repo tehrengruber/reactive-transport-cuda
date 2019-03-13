@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tehrengruber/Polybox/Uni/ETHZ/Semester 10/Semester thesis/ext/profiler/profiler.hpp
+stdint.h
+-
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+iostream
+-
+pcm/cpucounters.h
+/home/tehrengruber/Polybox/Uni/ETHZ/Semester 10/Semester thesis/ext/profiler/pcm/cpucounters.h
+stack
+-
+
+/home/tehrengruber/Polybox/Uni/ETHZ/Semester 10/Semester thesis/ext/profiler/profiler_io.cpp
+map
+-
+iomanip
+-
+fstream
+-
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+
+/home/tehrengruber/Polybox/Uni/ETHZ/Semester 10/Semester thesis/ext/profiler/test_bench.cpp
+cmath
+-
+profiler.hpp
+/home/tehrengruber/Polybox/Uni/ETHZ/Semester 10/Semester thesis/ext/profiler/profiler.hpp
+profiler_io.cpp
+/home/tehrengruber/Polybox/Uni/ETHZ/Semester 10/Semester thesis/ext/profiler/profiler_io.cpp
+iostream
+-
+fstream
+-
+string
+-
+stdint.h
+-
+pcre.h
+-
+
